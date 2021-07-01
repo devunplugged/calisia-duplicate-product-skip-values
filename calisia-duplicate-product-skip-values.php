@@ -5,7 +5,9 @@
  * Text Domain: calisia-duplicate-product-skip-values
  * Domain Path: /languages
 */
-
+if ( ! defined( 'ABSPATH' ) ) {
+	exit();
+}
 define('CALISIA_DUPLICATE_PRODUCT_SKIP_VALUES_ROOT', __DIR__);
 define('CALISIA_DUPLICATE_PRODUCT_SKIP_VALUES_URL', plugin_dir_url( __FILE__ ));
 
